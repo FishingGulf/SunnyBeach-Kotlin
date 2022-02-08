@@ -3,6 +3,8 @@
 apply from : 'configs.gradle'
 
 buildscript {
+    // Kotlin
+    ext.kotlin_version = "1.5.21"
 
     // 导入通用的 Maven 库配置
     apply from : 'maven.gradle'
@@ -20,7 +22,7 @@ buildscript {
         classpath 'com.android.tools.build:gradle:4.1.2'
         // Kotlin 插件：https://plugins.jetbrains.com/plugin/6954-kotlin
         // noinspection GradleDependency
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // AOP 配置插件：https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx
         classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.10'
     }

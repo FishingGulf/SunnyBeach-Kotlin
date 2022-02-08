@@ -8,6 +8,7 @@ import android.util.SparseArray
 import android.view.KeyEvent
 import android.view.ViewGroup
 import android.view.Window
+import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
@@ -21,8 +22,8 @@ import kotlin.math.pow
  *    time   : 2018/10/18
  *    desc   : Activity 技术基类
  */
-abstract class BaseActivity : AppCompatActivity(), ActivityAction,
-    ClickAction, HandlerAction, BundleAction, KeyboardAction {
+abstract class BaseActivity : AppCompatActivity, ActivityAction,
+        ClickAction, HandlerAction, BundleAction, KeyboardAction {
 
     companion object {
 
@@ -32,6 +33,10 @@ abstract class BaseActivity : AppCompatActivity(), ActivityAction,
 
     /** Activity 回调集合 */
     private val activityCallbacks: SparseArray<OnActivityCallback?> by lazy { SparseArray(1) }
+
+    constructor() : super()
+
+    constructor(@LayoutRes contentLayoutId: Int) : super(contentLayoutId)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
