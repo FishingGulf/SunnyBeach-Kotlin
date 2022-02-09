@@ -112,4 +112,9 @@
         <item name="android:textSize">@dimen/sp_12</item>
     </style>
 
+    <style name="AppMaterialComponents" parent="@style/Theme.MaterialComponents.Light">
+        <item name="android:colorPrimary">#F64581</item>
+        <item name="android:colorPrimaryDark">#F64581</item>
+    </style>
+
 </resources>

@@ -1,10 +1,10 @@
-# 安卓技术中台 Kotlin 版
+# 阳光沙滩App Kotlin 版
 
-* 项目地址：[Github](https://github.com/getActivity/AndroidProject-Kotlin)、[码云](https://gitee.com/getActivity/AndroidProject-Kotlin)
+* 项目地址：[Github](https://github.com/anjiemo/SunnyBeach-Kotlin)
 
-* Java 版本：[AndroidProject](https://github.com/getActivity/AndroidProject)
+* Java & Kotlin 版本：[SunnyBeach](https://github.com/anjiemo/SunnyBeach)
 
-* 博客地址：[但愿人长久，搬砖不再有](https://www.jianshu.com/p/77dd326f21dc)
+* 博客地址：[写BUG，因为更专注，所以更专业！](https://www.sunofbeach.net/u/1204736502274318336)
 
 * 另外你如果对 Kotlin 不熟悉，恰好想学习的话，推荐你通过下面这三篇文章来学习
 
@@ -14,13 +14,9 @@
 
     * [全民 Kotlin：协程特别篇](https://www.jianshu.com/p/2e0746c7d4f3)
 
-* 当我们日复一日年复一年的搬砖的时候，你是否曾想过提升一下开发效率，如果一个通用的架构摆在你的面前，你还会选择自己搭架构么，但是搭建出一个好的架构并非易事，有多少人愿意选择去做，还有多少人选择努力去做好，可能寥寥无几，但是你今天看到的，正是你所想要的，一个真正能解决你开发新项目时最大痛点的架构工程，你不需要再麻木 Copy 原有旧项目的代码，只需改动少量代码就能得到想要的效果，你会发现开发新项目其实是一件很快乐的事。
-
-* AndroidProject 已维护三年多的时间，几乎耗尽我所有的业余时间，里面的代码改了再改，改了又改，不断 Review、不断创新、不断改进、不断测试、不断优化，每天都在重复这些枯燥的步骤，但是只有这样才能把这件事做好，因为我相信把同样一件事重复做，迟早有一天可以做好。
-
-* 已经正式投入到多个公司项目实践中，暂时没有发现任何问题或者 Bug，[点击下载 Apk 体验](https://github.com/getActivity/AndroidProject-Kotlin/releases/download/13.1/AndroidProject-Kotlin.apk)，又或者扫码下载
-
-![](picture/demo_code.png)
+* 如果你想学习更加标准、官方的 Kotlin 代码，我比较推荐学习官方文档
+    * [Kotlin 语言中文站](https://www.kotlincn.net/docs/reference/)
+    * [Kotlin 语言英文站](https://kotlinlang.org/docs/basic-syntax.html)
 
 #### 常用界面
 
@@ -106,54 +102,14 @@
 
 #### [版本适配文档请点击这里查看](https://github.com/getActivity/AndroidVersionAdapter)
 
-#### [常见问题解答请点击这里查看](HelpDoc.md)
+#### 如果您觉得我的这个项目对你有帮助，请扫描下方的二维码随意打赏，要是能打赏个 10.24 :monkey_face:就太:thumbsup:了。您的支持将鼓励我继续创作:octocat:
 
-#### 作者的其他开源项目
-
-* 权限框架：[XXPermissions](https://github.com/getActivity/XXPermissions) ![](https://img.shields.io/github/stars/getActivity/XXPermissions.svg) ![](https://img.shields.io/github/forks/getActivity/XXPermissions.svg)
-
-* 吐司框架：[ToastUtils](https://github.com/getActivity/ToastUtils) ![](https://img.shields.io/github/stars/getActivity/ToastUtils.svg) ![](https://img.shields.io/github/forks/getActivity/ToastUtils.svg)
-
-* 网络框架：[EasyHttp](https://github.com/getActivity/EasyHttp) ![](https://img.shields.io/github/stars/getActivity/EasyHttp.svg) ![](https://img.shields.io/github/forks/getActivity/EasyHttp.svg)
-
-* 标题栏框架：[TitleBar](https://github.com/getActivity/TitleBar) ![](https://img.shields.io/github/stars/getActivity/TitleBar.svg) ![](https://img.shields.io/github/forks/getActivity/TitleBar.svg)
-
-* 悬浮窗框架：[XToast](https://github.com/getActivity/XToast) ![](https://img.shields.io/github/stars/getActivity/XToast.svg) ![](https://img.shields.io/github/forks/getActivity/XToast.svg)
-
-* Shape 框架：[ShapeView](https://github.com/getActivity/ShapeView) ![](https://img.shields.io/github/stars/getActivity/ShapeView.svg) ![](https://img.shields.io/github/forks/getActivity/ShapeView.svg)
-
-* 语种切换框架：[MultiLanguages](https://github.com/getActivity/MultiLanguages) ![](https://img.shields.io/github/stars/getActivity/MultiLanguages.svg) ![](https://img.shields.io/github/forks/getActivity/MultiLanguages.svg)
-
-* Gson 解析容错：[GsonFactory](https://github.com/getActivity/GsonFactory) ![](https://img.shields.io/github/stars/getActivity/GsonFactory.svg) ![](https://img.shields.io/github/forks/getActivity/GsonFactory.svg)
-
-* 日志查看框架：[Logcat](https://github.com/getActivity/Logcat) ![](https://img.shields.io/github/stars/getActivity/Logcat.svg) ![](https://img.shields.io/github/forks/getActivity/Logcat.svg)
-
-* Android 版本适配：[AndroidVersionAdapter](https://github.com/getActivity/AndroidVersionAdapter) ![](https://img.shields.io/github/stars/getActivity/AndroidVersionAdapter.svg) ![](https://img.shields.io/github/forks/getActivity/AndroidVersionAdapter.svg)
-
-* Android 代码规范：[AndroidCodeStandard](https://github.com/getActivity/AndroidCodeStandard) ![](https://img.shields.io/github/stars/getActivity/AndroidCodeStandard.svg) ![](https://img.shields.io/github/forks/getActivity/AndroidCodeStandard.svg)
-
-* Studio 精品插件：[StudioPlugins](https://github.com/getActivity/StudioPlugins) ![](https://img.shields.io/github/stars/getActivity/StudioPlugins.svg) ![](https://img.shields.io/github/forks/getActivity/StudioPlugins.svg)
-
-* 表情包大集合：[EmojiPackage](https://github.com/getActivity/EmojiPackage) ![](https://img.shields.io/github/stars/getActivity/EmojiPackage.svg) ![](https://img.shields.io/github/forks/getActivity/EmojiPackage.svg)
-
-* 省市区 Json 数据：[ProvinceJson](https://github.com/getActivity/ProvinceJson) ![](https://img.shields.io/github/stars/getActivity/ProvinceJson.svg) ![](https://img.shields.io/github/forks/getActivity/ProvinceJson.svg)
-
-#### 微信公众号：Android轮子哥
-
-![](https://raw.githubusercontent.com/getActivity/Donate/master/picture/official_ccount.png)
-
-#### Android 技术分享 QQ 群：78797078
-
-#### 如果您觉得我的开源库帮你节省了大量的开发时间，请扫描下方的二维码随意打赏，要是能打赏个 10.24 :monkey_face:就太:thumbsup:了。您的支持将鼓励我继续创作:octocat:
-
-![](https://raw.githubusercontent.com/getActivity/Donate/master/picture/pay_ali.png) ![](https://raw.githubusercontent.com/getActivity/Donate/master/picture/pay_wechat.png)
-
-#### [点击查看捐赠列表](https://github.com/getActivity/Donate)
+![](https://camo.githubusercontent.com/aec2ee4e291ef1b6d7ce5b663f9d78cc8a40ccc24eb38c58e1135ce102dfd58f/68747470733a2f2f67697465652e636f6d2f616e6a69656d6f2f6669677572652d6265642f7261772f6d61737465722f696d672f32303231303632343132353832312e706e67)
 
 ## License
 
 ```text
-Copyright 2018 Huang JinQun
+Copyright 2021 He XiaoFeng
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

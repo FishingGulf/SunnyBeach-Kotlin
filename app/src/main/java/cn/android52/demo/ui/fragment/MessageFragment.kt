@@ -8,6 +8,7 @@ import cn.android52.demo.aop.SingleClick
 import cn.android52.demo.app.TitleBarFragment
 import cn.android52.demo.http.glide.GlideApp
 import cn.android52.demo.ktx.startActivity
+import cn.android52.demo.ui.activity.BadgeActivity
 import cn.android52.demo.ui.activity.HomeActivity
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.hjq.permissions.Permission
@@ -39,7 +40,7 @@ class MessageFragment : TitleBarFragment<HomeActivity>() {
                 R.id.btn_message_image1, R.id.btn_message_image2, R.id.btn_message_image3,
                 R.id.btn_message_toast, R.id.btn_message_permission, R.id.btn_message_setting,
                 R.id.btn_message_black, R.id.btn_message_white, R.id.btn_message_tab,
-                R.id.btn_message_drag_sort
+                R.id.btn_badge
         )
     }
 
@@ -111,8 +112,8 @@ class MessageFragment : TitleBarFragment<HomeActivity>() {
 
                 HomeActivity.start(getAttachActivity()!!, HomeFragment::class.java)
             }
-            R.id.btn_message_drag_sort -> {
-                requireActivity().startActivity<DragActivity>()
+            R.id.btn_badge -> {
+                requireActivity().startActivity<BadgeActivity>()
             }
         }
     }

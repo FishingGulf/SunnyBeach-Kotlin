@@ -6,6 +6,7 @@ import android.content.SharedPreferences
 import android.os.Process
 import cn.android52.demo.ui.activity.CrashActivity
 import cn.android52.demo.ui.activity.RestartActivity
+import kotlin.system.exitProcess
 
 /**
  *    author : Android 轮子哥
@@ -63,12 +64,14 @@ class CrashHandler private constructor(private val application: Application) :
 
         // 不去触发系统的崩溃处理（com.android.internal.os.RuntimeInit$KillApplicationHandler）
         if (nextHandler != null && !nextHandler.javaClass.name
-                .startsWith("com.android.internal.os")) {
+                        .startsWith("com.android.internal.os")) {
             nextHandler.uncaughtException(thread, throwable)
         }
 
+        throwable.printStackTrace()
+
         // 杀死进程（这个事应该是系统干的，但是它会多弹出一个崩溃对话框，所以需要我们自己手动杀死进程）
         Process.killProcess(Process.myPid())
-        System.exit(10)
+        exitProcess(10)
     }
 }

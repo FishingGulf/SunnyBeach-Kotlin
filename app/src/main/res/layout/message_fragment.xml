@@ -32,12 +32,12 @@
                 android:visibility="gone" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_message_drag_sort"
+                android:id="@+id/btn_badge"
                 style="@style/ButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp_30"
-                android:text="拖动排序" />
+                android:text="badge" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_message_image1"
